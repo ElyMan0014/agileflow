@@ -5,7 +5,22 @@
 <groupId>gcs</groupId>
 <version>0.0.1-SNAPSHOT</version>
 <packaging>jar</packaging>
+<dependencyManagement>
+<dependencies>
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-api</artifactId>
+				<version>${version.javaee}</version>
+				<scope>provided</scope>
+			</dependency>
 
+			<dependency>
+				<groupId>org.primefaces</groupId>
+				<artifactId>primefaces</artifactId>
+				<version>${primefaces.version}</version>
+			</dependency>
+	</dependencies>
+</dependencyManagement>
 
     
 </project>
