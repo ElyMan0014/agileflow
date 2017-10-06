@@ -15,9 +15,9 @@ public class Equipement {
 	
 	private int qte;
 	
-	private generique_equipement equipement;
+	private Equipement_Generique equipement;
 	
-	public generique_equipement getEquipement() {
+	public Equipement_Generique getEquipement() {
 		return equipement;
 	}
 	public int getId() {
@@ -28,7 +28,7 @@ public class Equipement {
 		return qte;
 	}
 	
-	public void setEquipement(generique_equipement equipement) {
+	public void setEquipement(Equipement_Generique equipement) {
 		this.equipement = equipement;
 	}
 	public void setId(int id) {

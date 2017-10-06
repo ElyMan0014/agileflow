@@ -5,22 +5,19 @@
 <groupId>gcs</groupId>
 <version>0.0.1-SNAPSHOT</version>
 <packaging>jar</packaging>
-<dependencyManagement>
-<dependencies>
-			<dependency>
-				<groupId>javax</groupId>
-				<artifactId>javaee-api</artifactId>
-				<version>${version.javaee}</version>
-				<scope>provided</scope>
-			</dependency>
 
-			<dependency>
-				<groupId>org.primefaces</groupId>
-				<artifactId>primefaces</artifactId>
-				<version>${primefaces.version}</version>
-			</dependency>
+<dependencies>
+
+<dependency>
+    <groupId>org.hibernate.javax.persistence</groupId>
+    <artifactId>hibernate-jpa-2.1-api</artifactId>
+    <version>1.0.0.Final</version>
+</dependency>
+
+
+		
 	</dependencies>
-</dependencyManagement>
+
 
     
 </project>
