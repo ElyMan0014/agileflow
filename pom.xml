@@ -6,13 +6,23 @@
 <version>0.0.1-SNAPSHOT</version>
 <packaging>jar</packaging>
 
-
-
-<distributionManagement>
-	<id>mondepogl1</id>
-	<ur></ur>
-</distributionManagement>
-
+ <distributionManagement>
+  
+    
+    <repository>
+      <id>repo1</id>
+      <url>http://172.16.29.197:8081/repository/glone</url>
+    </repository>
+    
+   
+  </distributionManagement>
+<repositories>
+ <repository>
+      <id>repo1</id>
+      <url>http://172.16.29.197:8081/repository/glone</url>
+    </repository>
+    
+</repositories>
 
 <dependencies>
 
@@ -31,12 +41,15 @@
 
 </dependencies>
 
+
+
+<!-- 
 <repositories>
 	<repository>
 		<url>http://172.16.29.197:8881/repository/glone/</url>
 		<id>repo1</id>
 	</repository>
 </repositories>
-
+ -->
     
 </project>
